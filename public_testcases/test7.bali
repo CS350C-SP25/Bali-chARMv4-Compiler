@@ -1,0 +1,22 @@
+// *Good testcase*
+// Nested if-else
+// Expected result: 123
+// Points = 5
+
+int main() {
+	int a = 431, b = 123, c = 345;
+	int d;
+
+	if ((a<b))
+		if ((a<c))
+			d = a;
+		else
+			d = c;
+	else
+		if ((b<c))
+			d = b;
+		else
+			d = c;
+
+	return d;
+}

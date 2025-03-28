@@ -1,0 +1,19 @@
+// *Good testcase*
+// Factorial
+// Expected result: 120
+// Points = 7
+
+int main() {
+	return fact(5);
+}
+
+int fact(int a) {
+	int b;
+	if ((a=0)) {
+		b = 1;
+	}
+	else {
+		b = (a * fact((a-1)));
+	}
+	return b;
+}

@@ -1,0 +1,16 @@
+// *Bad testcase*
+// Unbalanced braces
+// Points = 3
+
+int main()
+{
+	int a = 5;
+	return foo(a);
+}
+
+int foo(int a)
+{
+	int b;
+	b = ((((a+10)-10)*5)/5));
+	return b;
+}

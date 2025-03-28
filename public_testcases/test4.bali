@@ -1,0 +1,21 @@
+// *Good testcase*
+// Function call
+// Expected result: 15
+// Points = 3
+
+int foo(int a) {
+  int b;
+  b=0;
+
+  while((a>0)) {
+    b = (a+10);
+    a = (a-1);
+    break;
+  }
+
+  return b;
+}
+
+int main() {
+    return foo(5);
+}

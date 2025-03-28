@@ -1,0 +1,15 @@
+// *Bad testcase*
+// Incomplete expression
+// Points = 3
+
+int main()
+{
+	return foo((5+));
+}
+
+int foo(int a)
+{
+	int b;
+	b = (a+10);
+	return b;
+}

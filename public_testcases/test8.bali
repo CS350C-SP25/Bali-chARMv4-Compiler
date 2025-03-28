@@ -1,0 +1,14 @@
+// *Good testcase*
+// Nested while loop
+// Expected result: 431
+// Points = 5
+
+int main() {
+	int a = 431, b = 123, c = 345;
+
+	while((b<c))
+		while((b<a))
+			b = (b+1);
+
+	return b;
+}

@@ -1,0 +1,33 @@
+
+int main() {
+    int a = 1, c = (!a);
+    // c = (!c);
+    a = 5;
+    a = (a + 4);
+
+    // c = (a > 5);
+
+    return foo(a);
+}
+
+int foo(int b) {
+    int a = 0;
+    while ((b > 2)) {
+        // need to down
+        while ((a < 5)) {
+            a = (a + 1);
+
+            if ((a = 3))
+                break;
+            else
+                a = a;
+        }
+
+        if ((a = 3))
+            break;
+        else
+            b = (b - 1);
+    }
+
+    return a;
+}
